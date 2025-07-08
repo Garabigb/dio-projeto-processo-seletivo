@@ -16,7 +16,7 @@ public class ProcessoSeletivo {
         for (String n: candidatos){
             for(int i=0; i<3; i++){
                 if(tentaLigar()){
-                    System.out.println("Conseguimos contato com o canditado "+n+" após tentativa "+i);
+                    System.out.println("Conseguimos contato com o canditado "+n+" após tentativa "+(i+1));
                     flag = true;
                     break;
                 }
